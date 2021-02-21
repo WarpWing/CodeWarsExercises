@@ -16,6 +16,9 @@ First problem I do on CodeWars(or one that I CAN do). This took a little bit of 
 
 # Actual Function(Stored in main.py)
 ```python
+
+l = [1,2,'a','b'] 
+
 def filter_list(l): 
     for i in l: # Iterates over said list
         if type(i) is int: #Checks for object type.
@@ -39,3 +42,18 @@ l = [1,2,'a','b'] #Initial output
 filter_list(l)
 l = [1,2] # #Removes all strings at once without a function callback
 ```
+## EDIT
+So after conferring with [EnderBro1000](https://github.com/EnderBro1000) who is a good friend of mine, it turns out that I got pass and continue mixed up. Here is the the revisted statement that would make the function iterate without a callback.
+```python
+l = [1,2,'a','b']
+
+def filter_list(l): 
+    for i in l: # Iterates over said list
+        if type(i) is int: #Checks for object type.
+            pass
+        else:
+            l.remove(i) # Remove said string.
+
+    return l # Returns output
+```
+So the function conundrum is solved :D 

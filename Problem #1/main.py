@@ -12,6 +12,6 @@ def filter_list(l):
     return l # Returns output
             
 
-filter_list(l) # Executes functions 
+filter_list(l) # Executes function
 
 

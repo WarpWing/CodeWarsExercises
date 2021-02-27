@@ -7,7 +7,7 @@ Language: Python 3
 # Examples: 
 Run 9119 through the function, 811181 will come out, because 9^2 is 81 and 1^2 is 1.
 
-Note: The function accepts an integer and returns an integer
+Note: The function accepts an integer and returns an integer.
 
 # Writeup 
 This one was harder than expected. While I wanted to put them into a for loop, I had problems with putting it all into a for loop so I did a list for each operation it had to do. Very inefficent but it works. Probably going to talk to more friends and try to find a better revision. It works for now and I'm proud of it!

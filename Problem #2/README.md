@@ -26,3 +26,4 @@ def square_digits(num):
     return output
 ```
 
+

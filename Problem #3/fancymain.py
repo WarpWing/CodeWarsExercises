@@ -15,8 +15,8 @@ def centuryInit():
         
 
 def centuryAgain():
-    input = input("Would you like to try to calculate more numbers? Please put y for yes or n for no: ")
-    if input == "y":
+    output = input("Would you like to try to calculate more numbers? Please put y for yes or n for no: ")
+    if output == "y":
         centuryInit()
     else: 
         print("Thank you for using Ty's Medieval Century Calculator!")

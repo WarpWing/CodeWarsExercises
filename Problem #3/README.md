@@ -16,7 +16,7 @@ centuryFromYear(2000)  returns (20)
 So I decided to go with lists initially but I later figured out that I could use strings to do operations rather than lists. So this is my first revision of the algorithm and it works pretty well. Will try to find a cleaner solution in the future.
 
 
-# Function(First Revision)
+# Function
 ```python
 def century(year):
     year = str(year)

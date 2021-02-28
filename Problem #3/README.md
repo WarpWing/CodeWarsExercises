@@ -31,3 +31,6 @@ def century(year):
     elif len(year) == 4:
         return int(year[:2]) + 1 
 ```
+
+# Fancy Fun
+I made a more complex and child-friendly version of the century calculator. Check it out [here](https://github.com/WarpWing/CodeWarsExercises/blob/main/Problem%20%233/fancymain.py)
